@@ -1,14 +1,34 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Canteens List
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <ion-img src='crasto.jpeg'></ion-img>
+    </ion-thumbnail>
+    <p>Refeitório do Crasto</p>
+    <button ion-button [navPush]="crastoPage" clear item-end><ion-icon name="restaurant"></ion-icon></button>
+    <button ion-button [navPush]="mapPage" clear item-end><ion-icon name="pin"></ion-icon></button>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <ion-img src='santiago.jpeg'></ion-img>
+    </ion-thumbnail>
+    <p>Refeitório de Santiago</p>
+    <button ion-button [navPush]="santiagoPage" clear item-end><ion-icon name="restaurant"></ion-icon></button>
+    <button ion-button clear item-end><ion-icon name="pin"></ion-icon></button>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail item-start>
+      <ion-img src='rest_uni.jpg'></ion-img>
+    </ion-thumbnail>
+    <p>Restaurante Universitário</p>
+    <button ion-button [navPush]="restaurantePage" clear item-end><ion-icon name="restaurant"></ion-icon></button>
+    <button ion-button clear item-end><ion-icon name="pin"></ion-icon></button>
+  </ion-item>
 </ion-content>

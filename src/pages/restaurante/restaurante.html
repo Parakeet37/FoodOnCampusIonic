@@ -1,0 +1,19 @@
+<ion-header>
+
+    <ion-navbar>
+      <ion-title>Refeições - Restaurante</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+    <ion-card *ngFor="let data of restauranteMeals">
+      <ion-card-header>
+        {{data.header}}
+      </ion-card-header>
+      <ion-card-content *ngFor="let i of data.content">
+        {{i}}
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
