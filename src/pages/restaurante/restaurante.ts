@@ -18,7 +18,7 @@ export class RestaurantePage {
   ionViewWillEnter(){    
       this.storage.get('menu').then((val) => {
       try{
-        this.meals.getCampus().then(
+        this.meals.getRest().then(
           data => {
             //Hide the loading indicator
             //Now, populate the array with data from the api
