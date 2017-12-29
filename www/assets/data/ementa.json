@@ -1,0 +1,115 @@
+{"@attributes":
+    {
+        "request":"\/sas\/ementas",
+        "request_timestamp":"1513878797"
+    },
+"menus":
+    {
+        "@attributes":
+        {
+            "zone":"santiago",
+            "type":"day"
+        },
+        "menu":[
+            {
+                "@attributes":
+                {
+                    "canteen":"Refeitório do Crasto",
+                    "meal":"Almoço",
+                    "date":"Thu, 21 Dec 2017 08:41:58 +0000",
+                    "weekday":"Thursday",
+                    "weekdayNr":"4",
+                    "disabled":"0"
+                },
+                "items":
+                {
+                    "item":[
+                        "Sopa de legumes",
+                        "Carne de porco à alentejana",
+                        "Arroz de tentáculos de lula",
+                        "Bife de porco grelhado com batata cozida e cenoura",
+                        "Arroz de feijão com cogumelos",
+                        "Opçao",
+                        "Buffet de saladas",
+                        "Pão de mistura",
+                        "Fruta da época ou doce",
+                        "Bebida"
+                    ]
+                }
+            },
+            {
+                "@attributes":
+                {
+                    "canteen":"Refeitório de Santiago",
+                    "meal":"Jantar",
+                    "date":"Thu, 21 Dec 2017 08:41:58 +0000",
+                    "weekday":"Thursday",
+                    "weekdayNr":"4",
+                    "disabled":"0"
+                },
+                "items":
+                {
+                    "item":[
+                        "Sopa de legumes",
+                        "Prato normal carne",
+                        "Maruca estufada com batata cozida",
+                        "Prato dieta",
+                        "Bolonhesa de soja",
+                        "Prato opção",
+                        "Buffet de saladas",
+                        "Pão de mistura",
+                        "Fruta da época ou doce",
+                        "Bebida"
+                    ]
+                }
+            },
+            {
+                "@attributes":
+                {
+                    "canteen":"Refeitório de Santiago",
+                    "meal":"Almoço",
+                    "date":"Thu, 21 Dec 2017 08:41:58 +0000",
+                    "weekday":"Thursday",
+                    "weekdayNr":"4",
+                    "disabled":"Encerrado - refeições servidas no refeitório de santiago"
+                },
+                "items":{}
+                },
+            {
+                "@attributes":
+                {
+                    "canteen":"Refeitório do Crasto",
+                    "meal":"Jantar",
+                    "date":"Thu, 21 Dec 2017 08:41:58 +0000",
+                    "weekday":"Thursday",
+                    "weekdayNr":"4",
+                    "disabled":"Encerrado - refeições servidas no refeitório de santiago"
+                },
+                "items":{}
+                },
+            {
+                "@attributes":
+                {
+                    "canteen":"Snack-Bar\/Self",
+                    "meal":"Almoço",
+                    "date":"Thu, 21 Dec 2017 08:41:58 +0000",
+                    "weekday":"Thursday",
+                    "weekdayNr":"4",
+                    "disabled":"0"
+                },
+                "items":
+                {
+                    "item":[
+                        "Sopa de feijão à portuguesa",
+                        "Frango de churrasco com arroz de choouriço",
+                        "Atum fresco grelhado com batata cozida",
+                        "Buffet de saladas",
+                        "Empadão de soja com brócolos",
+                        "Fruta da época ou doce",
+                        "Bebida"     
+                    ]
+                }
+            }
+        ]
+    }
+}
